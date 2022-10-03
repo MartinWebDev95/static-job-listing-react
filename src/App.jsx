@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <header className='bg-teal-700 bg-[url("./assets/bg-header-mobile.svg")] h-40 w-full bg-cover bg-no-repeat bg-center lg:bg-[url("./assets/bg-header-desktop.svg")]' />
+      <header className='bg-teal-700 bg-[url("/assets/bg-header-mobile.svg")] h-40 w-full bg-cover bg-no-repeat bg-center lg:bg-[url("/assets/bg-header-desktop.svg")]' />
       <main>
         <div className="container mx-auto px-6 lg:px-40">
           <FilterContextProvider>
